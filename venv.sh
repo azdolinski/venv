@@ -30,7 +30,7 @@ remove_venv() {
 # Check if an argument is provided
 if [ -z "$1" ]; then
   echo "Usage: $0 {create|activate|deactivate|remove}"
-  echo -e "aliases: \n * create=init\n * activate=active|run\n * deactivate=remove|deletel|del"
+  echo "aliases: \n * create=init\n * activate=active|run\n * deactivate=remove|deletel|del"
   exit 1
 fi
 
