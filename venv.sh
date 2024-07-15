@@ -30,21 +30,22 @@ remove_venv() {
 # Check if an argument is provided
 if [ -z "$1" ]; then
   echo "Usage: $0 {create|activate|deactivate|remove}"
+  echo -e "aliases: \n * create=init\n * activate=active|run\n * deactivate=remove|deletel|del"
   exit 1
 fi
 
 # Perform action based on the argument
 case "$1" in
-  create)
+  create|init)
     create_venv
     ;;
-  activate|active)
+  activate|active|run)
     activate_venv
     ;;
   deactivate|deactive)
     deactivate_venv
     ;;
-  remove)
+  remove|deletel|del)
     remove_venv
     ;;
   *)
