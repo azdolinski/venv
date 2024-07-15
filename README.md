@@ -2,7 +2,7 @@
 Download to folder in which you whant to have vENV.<br>
 vENV will be init in <b>./venv</b>
 ```bash
-wget https://raw.githubusercontent.com/azdolinski/venv/main/venv.sh
+wget https://raw.githubusercontent.com/nchekwa/venv.sh/main/venv.sh
 ```
 
 ### Usage
