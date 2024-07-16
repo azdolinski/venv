@@ -8,7 +8,7 @@ wget https://raw.githubusercontent.com/nchekwa/venv.sh/main/venv.sh
 ### Usage
 ```bash
 # --- Usage ---
-# sh venv.sh 
+root@linux:/tmp# sh venv.sh 
 Usage: venv.sh {create|activate|deactivate|remove}
 aliases: 
  * create=init
@@ -16,19 +16,19 @@ aliases:
  * deactivate=remove|deletel|del
 
 # --- Create vENV ---
-# sh venv.sh create
+root@linux:/tmp# sh venv.sh create
 Virtual environment created at ./venv
 
 # --- Activate vENV ---
-# ./venv.sh active
-# sh venv.sh active
+root@linux:/tmp# ./venv.sh active
+(venv) root@linux:/tmp#
 
 # --- Deactivate vENV ---
-(venv) # deactivate
-#
+(venv) root@linux:/tmp# deactivate
+root@linux:/tmp#
 
 # --- Remove vENV ---
-# sh venv.sh remove
+root@linux:/tmp# sh venv.sh remove
 Virtual environment removed.
 
 ```
